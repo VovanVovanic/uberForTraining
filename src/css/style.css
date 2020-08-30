@@ -345,4 +345,26 @@ header {
 .mobile_plus:hover:before, .mobile_plus:hover:after {
   background-color: #ff5656;
 }
+
+.choice {
+  min-height: 896px;
+  padding: 57px 0 138px 0;
+  background: url("../images/bgr3.png") center center/cover no-repeat;
+}
+
+.choice_car {
+  display: block;
+  margin: 0 auto;
+  margin-top: 56px;
+}
+
+.choice_text {
+  margin-top: 4px;
+  display: block;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #222222;
+  text-align: center;
+}
 /*# sourceMappingURL=style.css.map */
