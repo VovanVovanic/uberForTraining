@@ -130,7 +130,7 @@ header
     &_title
         margin: 0
         font-size: 60px
-        font-weight: 900
+        font-weight: 700
         line-height: 60px
         text-transform: uppercase
         color: white
@@ -194,3 +194,68 @@ header
         font-size: 15px
         font-weight: 300
         color: #202020
+.mobile
+    min-height: 864px
+    padding: 48px 0 80px 0
+    background: url('../images/backGr2.png') center center / cover no-repeat
+    .row
+        margin-top: 32px
+    &_block
+        position: relative
+        margin: 0 auto
+        width: 320px
+        height: 280px
+        margin-bottom: 19px
+        padding-top: 92px
+        &_1
+            background: url('../images/mob1.png')
+        &_2
+            background: url('../images/mob2.png')
+        &_3
+            background: url('../images/mob3.png')
+        &_4
+            background: url('../images/mob4.png')
+        &_5
+            background: url('../images/mob5.png')
+        &_6
+            background: url('../images/mob6.png')
+    &_title
+           font-size: 24px
+           line-height: 31px
+           font-weight: 400
+           text-transform: uppercase
+           color: #ffffff
+           text-align: center
+    &_plus
+        display: flex
+        justify-content: center
+        align-items: center
+        position: absolute
+        bottom: 35px
+        left: 50%
+        transform: translateX(-50%)
+        width: 26px
+        height: 26px
+        background-color: #000000
+        border-radius: 100%
+        cursor: pointer
+        
+        &:before
+            content: ''
+            width: 14px
+            height: 2px
+            background-color: #1eacc7
+            border-radius: 2px
+        &:after
+            position: absolute
+            content: ''
+            width: 2px
+            height: 14px
+            background-color: #1eacc7
+        &:hover
+            transition: 0.6s all
+            background-color: green
+            &:before, &:after
+                background-color: $second-color
+                
+        

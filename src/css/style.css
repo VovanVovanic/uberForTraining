@@ -167,7 +167,7 @@ header {
 .promo_title {
   margin: 0;
   font-size: 60px;
-  font-weight: 900;
+  font-weight: 700;
   line-height: 60px;
   text-transform: uppercase;
   color: white;
@@ -252,5 +252,97 @@ header {
   font-size: 15px;
   font-weight: 300;
   color: #202020;
+}
+
+.mobile {
+  min-height: 864px;
+  padding: 48px 0 80px 0;
+  background: url("../images/backGr2.png") center center/cover no-repeat;
+}
+
+.mobile .row {
+  margin-top: 32px;
+}
+
+.mobile_block {
+  position: relative;
+  margin: 0 auto;
+  width: 320px;
+  height: 280px;
+  margin-bottom: 19px;
+  padding-top: 92px;
+}
+
+.mobile_block_1 {
+  background: url("../images/mob1.png");
+}
+
+.mobile_block_2 {
+  background: url("../images/mob2.png");
+}
+
+.mobile_block_3 {
+  background: url("../images/mob3.png");
+}
+
+.mobile_block_4 {
+  background: url("../images/mob4.png");
+}
+
+.mobile_block_5 {
+  background: url("../images/mob5.png");
+}
+
+.mobile_block_6 {
+  background: url("../images/mob6.png");
+}
+
+.mobile_title {
+  font-size: 24px;
+  line-height: 31px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+}
+
+.mobile_plus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 35px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 26px;
+  height: 26px;
+  background-color: #000000;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.mobile_plus:before {
+  content: '';
+  width: 14px;
+  height: 2px;
+  background-color: #1eacc7;
+  border-radius: 2px;
+}
+
+.mobile_plus:after {
+  position: absolute;
+  content: '';
+  width: 2px;
+  height: 14px;
+  background-color: #1eacc7;
+}
+
+.mobile_plus:hover {
+  transition: 0.6s all;
+  background-color: green;
+}
+
+.mobile_plus:hover:before, .mobile_plus:hover:after {
+  background-color: #ff5656;
 }
 /*# sourceMappingURL=style.css.map */
