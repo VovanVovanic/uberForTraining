@@ -56,10 +56,12 @@ ul {
 
 header {
   position: relative;
-  z-indwx: 6;
+  z-index: 6;
+  height: 51px;
 }
 
 .navigation {
+  position: fixed;
   width: 100%;
   height: 51px;
   background-color: rgba(0, 0, 0, 0.9);
@@ -95,6 +97,7 @@ header {
 
 .subheader {
   position: absolute;
+  top: 51px;
   height: 84px;
   background-color: rgba(0, 0, 0, 0.6);
   width: 100%;
@@ -155,7 +158,6 @@ header {
 }
 
 .promo {
-  top: 84px;
   min-height: 799px;
   width: 100%;
   padding: 151px 0 132px 0;
@@ -210,5 +212,45 @@ header {
 .promo_btn:hover {
   background-image: none;
   background-color: #1eacc7;
+}
+
+.reason {
+  min-height: 900px;
+  padding: 71px 0 65px 0;
+}
+
+.reason_block {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reason_image {
+  margin-right: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 113px;
+  height: 113px;
+  background-color: #1eacc7;
+  border-radius: 100%;
+}
+
+.reason_info {
+  width: 342px;
+}
+
+.reason_title {
+  font-size: 17px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #1eacc7;
+}
+
+.reason_text {
+  font-size: 15px;
+  font-weight: 300;
+  color: #202020;
 }
 /*# sourceMappingURL=style.css.map */
