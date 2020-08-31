@@ -423,4 +423,29 @@ header {
 .warn .required_item::before {
   background: url("../icons/markRed.png") center center/cover no-repeat;
 }
+
+.world {
+  min-height: 717px;
+  position: relative;
+  padding: 49px 0 49px 0;
+  background: url("../images/world.jpg") center center/cover no-repeat;
+}
+
+.world_link {
+  position: absolute;
+  bottom: 49px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #1fbad6;
+  transition: 0.6s all;
+}
+
+.world_link:hover {
+  text-decoration: none;
+  font-size: 16px;
+  color: #ff5656;
+}
 /*# sourceMappingURL=style.css.map */
