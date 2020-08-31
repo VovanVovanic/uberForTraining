@@ -367,4 +367,60 @@ header {
   color: #222222;
   text-align: center;
 }
+
+.required {
+  padding: 68px 0 84px 0;
+}
+
+.required_block {
+  margin: 33px 0 29px 0;
+}
+
+.required_block_nmb {
+  margin-bottom: 0;
+}
+
+.required_title {
+  margin: 0;
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #1ca8c3;
+}
+
+.required_item {
+  position: relative;
+  margin-top: 20px;
+  margin-left: 50px;
+  font-size: 17px;
+  font-weight: 300;
+  color: #222222;
+}
+
+.required_item:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: -32px;
+  top: 4px;
+  width: 21px;
+  height: 20px;
+  background: url("../icons/markBlue.png") center center/cover no-repeat;
+  border-radius: 100%;
+}
+
+.required_bonus {
+  margin-top: 20px;
+  font-size: 17px;
+  font-weight: 300;
+  color: #1eacc7;
+}
+
+.warn .required_title {
+  color: #ff5656;
+}
+
+.warn .required_item::before {
+  background: url("../icons/markRed.png") center center/cover no-repeat;
+}
 /*# sourceMappingURL=style.css.map */

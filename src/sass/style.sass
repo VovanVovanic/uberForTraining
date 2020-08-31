@@ -273,5 +273,43 @@ header
         font-weight: 300
         color: #222222
         text-align: center
-                
-        
+.required
+    padding: 68px 0 84px 0
+    &_block
+        margin: 33px 0 29px 0
+        &_nmb
+            margin-bottom: 0
+    &_title
+        margin: 0
+        font-size: 22px
+        line-height: 24px
+        font-weight: 400
+        color: #1ca8c3           
+    &_item
+        position: relative
+        margin-top: 20px
+        margin-left: 50px
+        font-size: 17px
+        font-weight: 300
+        color: #222222 
+        &:before
+            content: ''
+            display: block
+            position: absolute
+            left: -32px
+            top: 4px  
+            width: 21px
+            height: 20px
+            background: url('../icons/markBlue.png') center center / cover no-repeat
+            border-radius: 100%
+    &_bonus
+        margin-top: 20px
+        font-size: 17px
+        font-weight: 300
+        color: $main-color
+.warn
+    .required_title
+        color: $second-color
+    .required_item
+        &::before
+            background: url('../icons/markRed.png') center  center / cover no-repeat
