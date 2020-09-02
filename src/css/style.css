@@ -852,6 +852,15 @@ header {
   .navigation_list {
     width: 85%;
   }
+  .navigation_item {
+    width: 100%;
+    text-align: center;
+  }
+  .navigation_link {
+    padding: 20px 0;
+    display: block;
+    width: 100%;
+  }
   .hamburger {
     width: 20px;
     height: 9px;
